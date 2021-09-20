@@ -1,0 +1,4 @@
+#! /bin/bash
+yum install httpd -y
+service restart httpd
+echo "This is my world" 
